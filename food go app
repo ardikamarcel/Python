@@ -1,0 +1,41 @@
+import math
+print("welcome to the food-go mobile app")
+nama = (input("please write down your name!"))
+print("the food menu")
+list1 = ["1-Bakso", "2-Mie Ayam","3-kepiting","4-spageti"]
+for good in list1:
+    print(good)
+answer = input(nama + "," + "what food do you want?")
+answer = int(answer)
+harga = 0
+if answer == 1:
+    harga = 10000
+elif answer == 2:
+    harga = 15000
+elif answer == 3:
+    harga = 35000
+elif answer == 4:
+    harga = 45000
+else:
+    print("the menu is not available")
+print("Do you have promo code?")
+promo = int(input("please enter the promo code")) 
+if promo == 235:
+    harga = harga - (harga * 25/100)
+else:
+    harga = harga
+# discount calculation
+if harga > 30000:
+    harga = harga - (harga * 20/100)
+elif harga > 25000:
+    harga = harga - (harga * 15/100)
+elif harga > 20000:
+    harga = harga - (harga * 10/100)
+else:
+    harga = harga
+# tax calculation
+pajak = 10/100
+totalharga = harga + (harga * pajak)
+totalharga = str(totalharga)
+print(nama + "," + "The total price is" + " Rp " + totalharga)
+print(nama + "," + "thank you for using food-go mobile app")
