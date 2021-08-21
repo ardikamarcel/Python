@@ -8,6 +8,7 @@ for good in list1:
 answer = input(nama + "," + "what food do you want?")
 answer = int(answer)
 harga = 0
+# choice
 if answer == 1:
     harga = 10000
 elif answer == 2:
@@ -18,6 +19,7 @@ elif answer == 4:
     harga = 45000
 else:
     print("the menu is not available")
+# promo code calculation
 print("Do you have promo code?")
 promo = int(input("please enter the promo code")) 
 if promo == 235:
