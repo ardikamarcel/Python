@@ -1,33 +1,38 @@
-# Python Projects by Marcello Ardika Raharja
+# Python Project
 
-This repository contains various Python projects that demonstrate the versatility and power of Python programming.
+## Description
 
-## Projects Overview
+This repository contains various Python scripts and projects developed by Marcello Ardika Raharja. Each script demonstrates different aspects of Python programming, including data manipulation, algorithm implementation, and more. The code is well-commented to assist in understanding and further development.
 
-### 1. Food Go App
-A simple application to order food online.
+## Features
 
-### 2. Online Banking System
-A basic system for managing bank accounts, transactions, and user data.
+- A variety of Python scripts covering different programming concepts.
+- Easy-to-understand code with detailed comments.
+- Suitable for learning and reference for Python developers.
 
-## Getting Started
+## Requirements
 
-### Prerequisites
 - Python 3.x
-- Required packages (see `requirements.txt`)
-
-### Installation
-1. Clone the repo: `git clone https://github.com/ardikamarcel/Python.git`
-2. Install dependencies: `pip install -r requirements.txt`
+- Any necessary Python libraries can be installed using `pip install -r requirements.txt` if a `requirements.txt` file is provided.
 
 ## Usage
-Navigate to the project directory and run the main script: `python main.py`
 
-## Contributing
-Contributions are welcome! Fork the repo and create a pull request.
+You can run any script directly using Python:
 
-## License
-MIT License - see the (LICENSE) file for details.
+```bash
+python script_name.py
+Each script is designed to be run independently, so make sure to check the comments in the script for any specific usage instructions.
 
-## Contact
-For questions, reach out at (ardikamarcel@gmail.com).
+**## Usage**
+Each script is designed to be run independently. Please check the comments in each script for specific usage instructions.
+
+**## Contributions**
+Contributions to this project are currently not accepted. For any suggestions, feel free to open an issue, but please note that no code contributions will be merged at this time.
+
+**## License**
+This project is licensed under a proprietary license. You may not copy, fork, or clone this repository. All rights are reserved by the author.
+
+**## Copyright**
+**Copyright © 2021 Marcello Ardika Raharja**
+
+**Alert: DO NOT COPY**
