@@ -15,14 +15,6 @@ This repository contains various Python scripts and projects developed by Marcel
 - Python 3.x
 - Any necessary Python libraries can be installed using `pip install -r requirements.txt` if a `requirements.txt` file is provided.
 
-## Usage
-
-You can run any script directly using Python:
-
-```bash
-python script_name.py
-Each script is designed to be run independently, so make sure to check the comments in the script for any specific usage instructions.
-
 **Note:** 1. Copying, forking, and cloning this repository are strictly forbidden and not allowed.
           2. No contributions needed.
 
