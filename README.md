@@ -23,8 +23,7 @@ You can run any script directly using Python:
 python script_name.py
 Each script is designed to be run independently, so make sure to check the comments in the script for any specific usage instructions.
 
----
-𝐍𝐨 𝐜𝐨𝐩𝐲𝐢𝐧𝐠, 𝐟𝐨𝐫𝐤𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐜𝐥𝐨𝐧𝐢𝐧𝐠:
+## 𝐍𝐨 𝐜𝐨𝐩𝐲𝐢𝐧𝐠, 𝐟𝐨𝐫𝐤𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐜𝐥𝐨𝐧𝐢𝐧𝐠:
 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬: Contributions to this project are currently not accepted. For any suggestions, please feel free to open an issue, but note that no code contributions will be merged at this time.
 𝐋𝐢𝐜𝐞𝐧𝐬𝐞: This project is licensed under a proprietary license. You may not copy, fork, or clone this repository. All rights are reserved by the author.
 ---
