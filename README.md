@@ -23,16 +23,12 @@ You can run any script directly using Python:
 python script_name.py
 Each script is designed to be run independently, so make sure to check the comments in the script for any specific usage instructions.
 
-**## Usage**
-Each script is designed to be run independently. Please check the comments in each script for specific usage instructions.
-
-**## Contributions**
+## 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬
 Contributions to this project are currently not accepted. For any suggestions, feel free to open an issue, but please note that no code contributions will be merged at this time.
 
-**## License**
+## 𝐋𝐢𝐜𝐞𝐧𝐬𝐞
 This project is licensed under a proprietary license. You may not copy, fork, or clone this repository. All rights are reserved by the author.
 
-**## Copyright**
-**Copyright © 2021 Marcello Ardika Raharja**
-
-**Alert: DO NOT COPY**
+## 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭
+Copyright © 2021 Marcello Ardika Raharja
+Alert: DO NOT COPY
