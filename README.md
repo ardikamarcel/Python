@@ -4,6 +4,7 @@
 
 This repository contains various Python scripts and projects developed by Marcello Ardika Raharja. Each script demonstrates different aspects of Python programming, including data manipulation, algorithm implementation, and more. The code is well-commented to assist in understanding and further development.
 
+## Project List
 ## Project 1: Food-Go Mobile App
 
 ### Overview
