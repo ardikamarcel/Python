@@ -66,7 +66,7 @@ The **Online Banking System** is a Python-based command-line application designe
 - Python 3.x
 - Any necessary Python libraries can be installed using `pip install -r requirements.txt` if a `requirements.txt` file is provided.
 
-**Note:** Copying, forking, and cloning this repository are strictly forbidden and not allowed.
+**Note:** Copying, forking, and cloning these repositories (PYTHON) are strictly forbidden and not allowed.
 
 ## License
 
