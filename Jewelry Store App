@@ -1,0 +1,41 @@
+print("Welcome to JEWELRY VAIRMONTQUE")
+
+def do():
+    answer = input("Please choose if you'd like to take on JEWELRY 8 or JEWELRY 10: ")
+    if answer.lower() == "jewelry 8":
+        print("Great")
+        compare()
+    elif answer.lower() == "jewelry 10":
+        print("Awesome")
+        compare()
+    else:
+        print("Please BE SMARTER")
+        do()
+
+def compare():
+    jewelry_8_price = 2000
+    jewelry_10_price = 8000
+    price_difference = jewelry_10_price - jewelry_8_price
+    
+    comer = input("Please tell me if you want to compare the price of jewelry 8 and jewelry 10. Say YES if you'd like to, say NO if you wouldn't: ")
+    
+    if comer.upper() == "YES":
+        print(f"Jewelry 8 is ${jewelry_8_price}, jewelry 10 is ${jewelry_10_price}, the difference is ${price_difference}.")
+        do()
+    elif comer.upper() == "NO":
+        print("Bye")
+    else:
+        print("Please provide a valid answer.")
+        compare()
+
+def lo():
+    hedi = input("Would you like to pick the JEWELRY straight away or compare the PRICES? Type 'jewelry' or 'prices': ")
+    if hedi.lower() == "jewelry":
+        do()
+    elif hedi.lower() == "prices":
+        compare()
+    else:
+        print("Please provide a valid answer.")
+        lo()
+
+lo()
