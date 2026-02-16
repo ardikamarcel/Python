@@ -1,0 +1,75 @@
+import random
+import os
+import time
+
+def vote():
+    all_votes = []
+
+    for name in people:
+        print(f"Hi {name}")
+        choice = input(f"Who do you vote for {people}: ")
+
+        if choice in people:
+            all_votes.append(choice)
+        else:
+            print("ERROR")
+
+    print("Results:")
+    for name in people:
+        print(f"{name} has {all_votes.count(name)}")
+        if name == undercover:
+            print(f"{name} is UnderCover")
+        elif name == mr_white:
+            print(f"{name} is Mr.White")
+        else:
+            print(f"{name} is Civillian")
+
+def budi():
+    words = ["cat", "dog", "wolfs", "lion", "tiger"]
+    word = random.sample(words, 2)
+    undercover1 = word[0]
+    civillian1 = word[1]
+    for name in people:
+        input(f"{name}, press ENTER to see your role...")
+
+        if name == undercover:
+            print("UnderCover")
+            print(undercover1)
+            time.sleep(3)
+            os.system('cls' if os.name == 'nt' else 'clear')
+        
+        elif name == mr_white:
+            print("Mr White")
+            print("You don't have any words")
+            time.sleep(3)
+            os.system('cls' if os.name == 'nt' else 'clear')
+        
+        else:
+            print("Civillian")
+            print(civillian1)
+            time.sleep(3)
+            os.system('cls' if os.name == 'nt' else 'clear')
+
+    vote()
+
+print("Welcome to the UnderCover Game")
+
+num_people = int(input("Please put the number of people who wants to play the game: "))
+if num_people >= 3:
+    next
+else:
+    print("ERROR")
+    exit()
+
+people = []
+for i in range(num_people):
+    name = input(f"What is the name of person {i+1}? ")
+    people.append(name)
+
+print(f"Hello {people} and WELCOME to the UnderCover Game")
+
+roles = random.sample(people, 2)
+undercover = roles[0]
+mr_white = roles[1]
+
+budi()
